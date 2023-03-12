@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./style.css"/>
-        <title>My Site</title>
+        <title>Fitness centre</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="javascript" href="script.js"/>
     </head>
     <body>
         <div class="master">
-
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="Fitness logo">
+                    <p>Welcome to Bigman Gym</p>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>                 
+                </div>
+            </nav>
         </div>
-        <script></script>
-        <h1>New World</h1>
+        <div class="information">
+            <div class="feature">
+                <img src="images/curls.jpeg" alt="Bicep curls">
+                <p>With form and consistency you can make it</p>
+            </div>
+            <div class="feature">
+                <img src="images/cbum.jpeg" alt="Chris Bumstead">
+                <p>Be as big as HIM</p>
+            </div>
+            <div class="feature">
+                <img src="images/situpsfem.jpeg" alt="Situps">
+                <p>We offer routines for all</p>
+            </div>
+            <div class="feature">
+                <img src="images/pushingtyre.jpeg" alt="Pushing tyre">
+                <p>Outdoor facilities available</p>
+            </div>
+            <div class="feature">
+                <img src="images/poses.jpeg" alt="Members">
+                <p>Join and be a better you!</p>
+            </div>
+            </div>
+        <div>
+            <p>Enter your name, then click "Submit" to submit your application:</p>
+
+        <form id="frm1" action="/action_page.php">
+            <br>First name: <input type="text" name="fname"> <br>
+            <br>Last name: <input type="text" name="lname"> <br>
+            <br>Address: <input type="text" name="Adname"> <br>
+              <input type="button" onclick="myFunction()" value="Submit">
+        </form>
+        </div>
     </body>
 </html>
